@@ -5,7 +5,7 @@ import learning from "../../assets/images/learning.png";
 const HeroSection = () => {
   const { t } = useTranslation();
   return (
-    <div className="max-w-[1440px] w-[90%] m-auto">
+    <div className="max-w-[1440px] w-[90%] px-4 m-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-4 items-center">
         <div className="flex flex-col items-start justify-between gap-10 md:gap-8 lg:gap-0 lg:justify-around order-2 lg:order-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl w-full lg:w-[70%] font-semibold text-black leading-tight md:leading-normal lg:leading-[125%] group-hover:text-[#263238]/90 transition-colors duration-300">
