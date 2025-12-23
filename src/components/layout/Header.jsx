@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <header className="max-w-[1440px] relative sticky gap-5 top-0 z-50 bg-white w-[90%] m-auto flex items-center justify-between py-4 px-4">
-      <img src={Britlex} alt="Britlex Logo" className="h-8 md:h-10" />
+      <img src={Britlex} alt="Britlex Logo" className="" />
 
       <nav className="hidden md:flex flex-wrap items-center gap-8">
         <ul className="flex gap-6">
