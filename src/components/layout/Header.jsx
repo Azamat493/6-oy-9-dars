@@ -51,25 +51,23 @@ const Header = () => {
             </li>
           ))}
         </ul>
-
-        <select
-          value={i18n.language}
-          onChange={handleLanguageChange}
-          className="px-3 py-1.5 border border-gray-300 rounded-lg bg-white text-gray-700 text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 appearance-none"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e")`,
-            backgroundPosition: "right 0.5rem center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "1em 1em",
-            paddingRight: "2rem",
-          }}
-        >
-          <option value="en"> {t("languages.english")}</option>
-          <option value="uz"> {t("languages.uzbek")}</option>
-          <option value="ru"> {t("languages.russian")}</option>
-        </select>
       </nav>
-
+      <select
+        value={i18n.language}
+        onChange={handleLanguageChange}
+        className="px-3 md:block hidden py-1.5 border border-gray-300 rounded-lg bg-white text-gray-700 text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 appearance-none"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e")`,
+          backgroundPosition: "right 0.5rem center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "1em 1em",
+          paddingRight: "2rem",
+        }}
+      >
+        <option value="en"> {t("languages.english")}</option>
+        <option value="uz"> {t("languages.uzbek")}</option>
+        <option value="ru"> {t("languages.russian")}</option>
+      </select>
       <button
         className="md:hidden flex flex-col justify-center items-center w-8 h-8 group"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
