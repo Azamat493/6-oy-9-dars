@@ -53,6 +53,24 @@ const uz = {
     desc3:
       "Butun dunyodan kelgan talabalar bilan birga malakali EC o‘qituvchilari tomonidan olib boriladigan jonli onlayn darslar orqali ingliz tilini o‘rganishni boshlang.",
     perMonth: " oyiga",
+
+    plan4: "Intensiv kurs",
+    desc4:
+      "Har kuni 2 soatlik tezkor darslar orqali 1 oyda ingliz tilida suhbatlashishni o‘rganing.",
+    plan5: "Guruhiy darslar",
+    desc5:
+      "5-7 kishilik guruhlarda har hafta 3 marta o‘tkaziladigan interaktiv darslar.",
+    plan6: "Mentorlik",
+    desc6:
+      "Shaxsiy mentor bilan haftalik darslar, progress monitoring va testlar.",
+
+    plan7: "Tezkor darslar",
+    desc7: "30 daqiqalik samarali darslar — band kishilar uchun ideal tanlov.",
+    plan8: "Premium dastur",
+    desc8: "AI-assistent, cheksiz amaliyot, real-time feedback va sertifikat.",
+    plan9: "VIP coaching",
+    desc9:
+      "24/7 shaxsiy o‘qituvchi, individual dastur, IELTS/TOEFL tayyorgarligi.",
   },
   contact: {
     title: "Biz bilan bog‘laning",

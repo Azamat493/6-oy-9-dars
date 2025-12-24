@@ -42,17 +42,28 @@ const en = {
     languages: "Foreign languages",
   },
   pricing: {
-    title: "Pricing",
-    plan1: "Self-study online course",
-    plan2: "Live online classes",
-    plan3: "Personal coaching",
-    desc1:
-      "Start learning English online in live classes with qualified EC teachers...",
-    desc2:
-      "Start learning English online in live classes with qualified EC teachers...",
-    desc3:
-      "Start learning English online in live classes with qualified EC teachers...",
-    perMonth: " per month",
+    "title": "Pricing",
+    "plan1": "Self-study online course",
+    "plan2": "Live online classes",
+    "plan3": "Personal coaching",
+    "desc1": "Start learning English online in live classes with qualified EC teachers and students from around the world.",
+    "desc2": "Start learning English online in live classes with qualified EC teachers and students from around the world.",
+    "desc3": "Start learning English online in live classes with qualified EC teachers and students from around the world.",
+    "perMonth": " per month",
+
+    "plan4": "Intensive Course",
+    "desc4": "Learn to speak English in 1 month with daily 2-hour accelerated lessons.",
+    "plan5": "Group Classes",
+    "desc5": "Interactive classes 3 times a week in groups of 5–7 students.",
+    "plan6": "Mentorship",
+    "desc6": "Weekly sessions with a personal mentor, progress tracking, and tests.",
+
+    "plan7": "Quick Lessons",
+    "desc7": "Efficient 30-minute lessons — perfect for busy people.",
+    "plan8": "Premium Program",
+    "desc8": "AI assistant, unlimited practice, real-time feedback, and certificate.",
+    "plan9": "VIP Coaching",
+    "desc9": "24/7 personal teacher, custom program, IELTS/TOEFL preparation."
   },
   contact: {
     title: "Contact Us",
